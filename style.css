@@ -22,7 +22,7 @@ body {
   width: 0;
   padding: 0;
   border: none;
-  outline: 0;
+  outline: none;
   background: var(--color-bg-accent);
   font-size: 1rem;
   transition: all var(--sec-transition) ease;
@@ -43,10 +43,7 @@ body {
   color: var(--color-text-accent-variant);
   transition: all var(--sec-transition) ease;
 }
-.search-icon:hover {
-  background: var(--color-bg-accent);
-  color: var(--color-text-accent);
-}
+.search-icon:hover,
 .search:focus + .search-icon {
   background: var(--color-bg-accent);
   color: var(--color-text-accent);
